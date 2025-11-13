@@ -1,0 +1,39 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  background: #0a0a0a;
+  color: #0ff;
+}
+
+.navbar {
+  background: rgba(0,255,255,0.1);
+  padding: 10px;
+  backdrop-filter: blur(10px);
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar a {
+  color: #0ff;
+  text-decoration: none;
+  text-shadow: 0 0 5px #0ff, 0 0 10px #0ff;
+}
+
+.navbar a:hover {
+  text-shadow: 0 0 10px #0ff, 0 0 20px #0ff;
+}
+
+.page {
+  padding: 20px;
+  margin: 20px;
+  border-radius: 15px;
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(0,255,255,0.2);
+  backdrop-filter: blur(10px);
+}
